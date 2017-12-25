@@ -44,3 +44,16 @@ variable "db_locket_username" {}
 variable "db_locket_password" {}
 variable "db_silk_username" {}
 variable "db_silk_password" {}
+
+variable "opsman_subnet_cidr" {
+  default = "192.168.101.0/26"
+}
+variable "ert_subnet_cidr" {
+  default = "192.168.16.0/22"
+}
+variable "service_subnet_cidr" {
+  default = "192.168.20.0/22"
+}
+variable "dynamic_service_subnet_cidr" {
+  default = "192.168.24.0/22"
+}
